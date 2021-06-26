@@ -1,5 +1,5 @@
 // Changes the color of every letter with mouseover then back to the original css color
-// use the class of "sentence" on the tag you would like to change
+// use the id of "sentence" on the tag you would like to change
 
 
 //change for your colors 
