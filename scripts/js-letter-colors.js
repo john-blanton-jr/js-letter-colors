@@ -26,11 +26,7 @@ let words = document.querySelector("#sentence");
   let splitWords = words.innerText.split("")
   let newHtml = '';
   for (var i = 0; i < splitWords.length; i++) { 
-      if (splitWords[i] == " ") {
-        newHtml += '<span>' + splitWords[i] + "&nbsp;" + '</span>';
-      } else {
-        newHtml += '<span>' + splitWords[i] + '</span>';
-      }
+      newHtml += '<span>' + splitWords[i] + '</span>';
     }
     words.innerHTML = newHtml; 
 })()
