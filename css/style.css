@@ -1,13 +1,20 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 section {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	background-color: rgb(143, 185, 145);
+}
+.inner {
+	background-color: #fff;
+	border: 2px solid #000;
+	padding: 30px;
+	border-radius: 20px;
 }
