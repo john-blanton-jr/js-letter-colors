@@ -7,5 +7,3 @@ Ability to change color choices and change for different timing options on retur
 
 use the id of "sentence" on the tag you would like to change
 
-Plans:
-Convert to a NPM module and publish for react users.
